@@ -14,6 +14,7 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 - https://github.com/Hann8n/Atom-for-Firefox
 
 ### My theme
+- Tested only in MacOS.
 - Fully transparent and transluscent.
 - White sub-pixel border for the url-bar and the active tab.
 - Centered url-bar text.
