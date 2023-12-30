@@ -51,7 +51,7 @@ Brave-Fox by @github/Soft-Bred
 }
 
 #urlbar-background {
-    border: 0.5px solid rgba(237, 237, 237, 1) !important;
+    border: 1px solid #CCCCCC !important;
 }
 
 #urlbar[open] > .urlbarView > .urlbarView-body-outer > .urlbarView-body-inner {
@@ -73,13 +73,13 @@ Brave-Fox by @github/Soft-Bred
 .tab-background[multiselected="true"] {	
     /* background: rgba(0,0,0,.05) !important; */
     background: transparent !important;
-    border: 0.5px solid rgba(237, 237, 237, 1) !important;
+    border: 1px solid #CCCCCC !important;
 }
 
 :root[lwt-default-theme-in-dark-mode] .tab-background[selected],
 .tab-background[multiselected="true"] {	
     background: rgba(0, 0, 0, 0.05) !important;
-    border: 0.5px solid rgba(237, 237, 237, 1) !important;
+    border: 1px solid #CCCCCC !important;
 }
 
 /*--------- Navigation Bar Background -----------*/
