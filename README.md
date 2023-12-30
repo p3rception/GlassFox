@@ -1,4 +1,7 @@
-# FirefoxCSS
+# GlassFox
+<hr>
+
+## What is FirefoxCSS
 Mozilla Firefox provides the ability to fully customise your browser using custom CSS. You can find more here [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/).
 
 ## Installation
@@ -26,4 +29,4 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 - Safari-like text only bookmarks with an icon animation twist.
 - Place the contents of `bookmark-animation.css` to `userChrome.css`.
 
-![](/media/bookmark-animation.mp4)
+![](/media/bookmark-animation.gif)
