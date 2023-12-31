@@ -1,4 +1,4 @@
-# GlassFox
+![](/media/glassfox.png)
 <hr>
 
 ## What is FirefoxCSS
