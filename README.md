@@ -26,7 +26,7 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 ![](/media/firefox.png)
 
 ### (Optional) Custom Bookmarks Bar
-- Safari-like text only bookmarks with an icon animation twist.
+- Safari-like text-only bookmarks with an icon animation twist.
 - Place the contents of `bookmark-animation.css` to `userChrome.css`.
 
 ![](/media/bookmark-animation.gif)
