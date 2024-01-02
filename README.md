@@ -31,3 +31,21 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 - Place the contents of `bookmark-animation.css` to `userChrome.css`.
 
 ![](/media/bookmark-animation.gif)
+
+### (Optional) Stretched tabs
+- That's a second version of the skin that has Safari-like stretch tabs.
+- I removed URL-bar's border as I think it complicates the minimal aspect of the theme.
+- To achieve this you need change/add the following in `userChrome.css`:
+```
+#urlbar-background {
+    border: none !important;
+}
+```
+```
+/* Stretch Tabs */
+.tabbrowser-tab[fadein]:not([pinned]) {
+    max-width: none !important;
+}
+```
+
+![](/media/stretched-tabs.gif)
