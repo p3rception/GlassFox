@@ -48,4 +48,4 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 }
 ```
 
-![](/media/stretched-tabs.gif)
+![](/media/stretch-tabs.gif)
