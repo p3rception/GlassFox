@@ -15,6 +15,7 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 - https://github.com/datguypiko/Firefox-Mod-Blur
 - https://github.com/dannycandle/FluidFox
 - https://github.com/Hann8n/Atom-for-Firefox
+- https://github.com/Soft-Bred/Brave-Fox
 
 ## GlassFox
 - Tested only in MacOS.

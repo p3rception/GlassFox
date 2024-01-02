@@ -112,6 +112,28 @@ Brave-Fox by @github/Soft-Bred
     background: rgba(34, 34, 36, 1) !important;
 }
 
+/*-------------- URL bar -----------------*/
+
+/* Centre URL bar text input */
+#urlbar-input {
+    height: 100%;
+    text-align: center !important;
+}
+
+/* Unless text input is selected like Safari */
+#urlbar[focused] #urlbar-input {
+    position: absolute;
+    transform: translateX(0);
+    transition: all 0.2s ease;
+    width: 100%;
+    text-align: left !important;
+}
+
+#urlbar {
+	max-width: 70% !important;
+	margin: 0 15% !important;
+}
+
 /*--------- Bookmarks bar | Solid Color instead of Transparency -----------*/
 
 /* :root:not([lwt-default-theme-in-dark-mode]) #PersonalToolbar {
@@ -210,23 +232,4 @@ Brave-Fox by @github/Soft-Bred
 }
 .tab-content { 
     overflow: hidden !important;
-}
-
-/* Centre URL bar text input */
-#urlbar-input {
-    transition: transform 0.1s linear;
-    transform: translateX(50%);
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    text-align: center !important;
-}
-
-/* Unless text input is selected like Safari */
-#urlbar[focused] #urlbar-input {
-    position: absolute;
-    transform: translateX(0);
-    transition: all 0.2s ease;
-    width: 100%;
-    text-align: left !important;
 }
