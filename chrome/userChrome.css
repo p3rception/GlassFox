@@ -24,13 +24,26 @@ Brave-Fox by @github/Soft-Bred
 :root #titlebar,
 :root #tabbrowser-tabs,
 :root #PersonalToolbar,
-:root #nav-bar {
+:root #nav-bar,
+:root #browser,
+:root #navigator-toolbox {
     -moz-default-appearance: menupopup !important;
     appearance: auto !important;
     background-color: transparent !important;
 }
 
 /*--------- Borders -----------*/
+
+/* White border and rounded corners for browser content */
+#appcontent {
+    margin-top: 1px !important;
+    margin-inline: 2px !important; /* sides */
+    margin-block-end: 2px !important; /* bottom */
+    border-radius: 12px !important;
+    border: 1px solid #CCCCCC !important;
+    overflow: hidden !important;
+    box-shadow: 0 0 0px 1px light-dark(rgb(204, 204, 204), hsl(240, 5%, 5%)) !important;
+}
 
 .tabbrowser-tab::after {
     border: 0 !important;
