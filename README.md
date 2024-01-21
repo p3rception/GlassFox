@@ -26,6 +26,11 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 
 ![](/media/firefox.png)
 
+## Update 21/1
+- Added rounded corners and white border for app-content. IMO it amplifies the modern look.
+
+![](/media/rounded-appcontent.png)
+
 ### (Optional) Custom Bookmarks Bar
 - Safari-like text-only bookmarks with an icon animation twist.
 - Place the contents of `bookmark-animation.css` to `userChrome.css`.
